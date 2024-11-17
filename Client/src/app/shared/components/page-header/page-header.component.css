@@ -1,0 +1,33 @@
+mat-toolbar {
+  
+  background-color: rgb(44, 52, 61);
+  .sign1{
+    background-color: rgb(93, 255, 123);
+    color: rgb(5, 5, 7);
+    margin-left: 1rem; 
+  }
+
+  .sign1:hover{
+    background-color: rgb(225, 226, 129);
+  }
+  .out1{
+    background-color: rgb(217, 62, 62);
+    color: rgb(13, 15, 17);
+    margin-left: 1rem;
+  }
+  .out1:hover{
+    background-color: rgb(225, 226, 129);
+  }
+    .spacer {
+      flex: 1 1 auto;     
+    }
+  
+    .user-info {
+      display: flex;
+      align-items: center;
+  
+      button {
+        margin-left: 1.5rem;
+      }
+    }
+  }

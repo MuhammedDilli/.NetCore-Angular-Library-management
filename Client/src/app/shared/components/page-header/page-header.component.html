@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <span>Kütüphane Yönetim Sistemi</span>
+    <span class="spacer"></span>
+    <div class="user-info">
+        @if (loggedIn) {
+        <div class="name">Merhaba, {{name}}</div>
+        }
+        <button mat-raised-button class="sign1" routerLink="/profile">Profil</button>
+        <button mat-raised-button  class="out1" (click)="logout()">Çıkış Yap</button>
+    </div>
+</mat-toolbar>

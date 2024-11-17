@@ -1,0 +1,43 @@
+
+:host {
+  display: block;
+  width: 500px;
+}
+
+mat-card {
+  border-radius: 5%;
+  .btn1{
+    color: rgb(93, 255, 123);
+    background-color: rgb(103, 121, 112);
+  }
+  .btn1:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 226, 129);
+  }
+  mat-card-header { 
+    display: flex;
+    justify-content: center;
+
+    mat-card-title {
+      font-size: 2rem;
+      color: rgb(93, 255, 123);
+    }
+  }
+
+  mat-form-field {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  mat-card-actions {
+    button {
+      margin: auto;
+      width: 80%;
+    }
+
+    h4 {
+      margin: 0;
+      padding-right: 1rem;
+    }
+  }
+}
